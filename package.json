@@ -1,0 +1,26 @@
+{
+	"name": "kill-port",
+	"version": "1.0.1",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"kp": "bin/kill-port"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RostiMelk/kp.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RostiMelk/kp/issues"
+	},
+	"homepage": "https://github.com/RostiMelk/kp#readme",
+	"dependencies": {
+		"esm": "^3.2.25"
+	}
+}
