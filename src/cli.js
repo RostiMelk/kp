@@ -11,7 +11,7 @@ export async function cli(args) {
 
 	try {
 		const processes = await lsof();
-		const process = processes.find((process) => process.NAME.includes(`:${port}`));
+		const process = processes.find((process) => process.NAME.split(':').pop() === port);
 		if (!process) {
 			console.log(`No process found listening on port ${port}`);
 			return;
